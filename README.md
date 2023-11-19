@@ -23,8 +23,10 @@ Write the value of 'i' in the second file by following method.
 ## Step 6:
 stop
 ## PROGRAM:
-#name :anandh sasidharan.
-##register number :212221240049
+~~~
+name :anandh sasidharan.
+register number :212221240049
+
 with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
       
     # read content from first file
@@ -32,6 +34,7 @@ with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
                
              # append content to second file
              secondfile.write(line)
+~~~
 ### OUTPUT:
 ![](1.png)
 
